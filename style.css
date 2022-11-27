@@ -22,7 +22,7 @@ body{
 }
 
 .name_container{
-    padding:20px ;
+    padding:30px ;
     font-weight:100;
     
 }
@@ -50,7 +50,7 @@ body{
 
 .web_designer{
     font-size:100px;
-    font-weight:100px;
+    font-weight:bolder;
     color:#03045E;
     line-height: 116px;
 }
@@ -64,8 +64,8 @@ body{
     text-decoration: none;
     color:#03045E;
     background-color: #efe33a;
-    padding:10px;
-    margin:50px;    
+    padding: 15px;
+    margin:10px;    
 }
 
 .resume{
@@ -75,23 +75,23 @@ body{
 
 
 .profile{
-    border-radius: 364px 256px 364px 0;
-    
+    border-radius: 364px 256px 364px 265px;
 }
 
 .about_para{
     width:70%;
     color:#03045E;
-
+    margin-bottom: 20px;
 }
 
 
 .brown_head{
     color: #474747;
-    font-weight:800 ;
-    font-size: 80px;
+    font-weight:lighter;
+    font-size: 50px;
     line-height: 116px;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
+    margin-top: 30px;
 }
 
 .about_exp{
@@ -104,18 +104,29 @@ body{
     margin-top: 30px;
     
 }
-
 #skills{
-    font-size: 30px;
+    font-size: 20px;
 }
 .skill_container{
-    display: flex;
+    display:flex;
     justify-content: space-between;
 }
 .skill_item{
-    margin-top: 10px;
+    margin-top: 50px;
     border: #474347 solid 4px;
-    width: 250px;
-    padding:15px;
+    width: 210px;
+    height:210px;
+    padding: 30px;
     text-align: center;
+}
+
+.con1{
+    display:flex;
+    justify-content:space-evenly;
+    margin-bottom: 40px;
+}
+
+.c_para{
+    margin-bottom: 30px;
+    font-size: larger;
 }
